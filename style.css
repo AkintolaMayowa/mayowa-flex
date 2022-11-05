@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mayowa-hero {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+   background-image: url(img/istockphoto-501973090-612x612.jpg);
+    color: #fff;
+}
+li {
+    list-style: none;
+    font-weight: 800;
+    font-size: larger;
+}
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+nav ul li {
+    display: inline-block;
+    padding: 5px 50px;
+    margin-top: 30px;
+}
+nav ul li:hover {
+    color: red;
+    transition: 3s;
+}
+h2 {
+    padding: 30px;
+}
+span {
+  color: red;
+  border-bottom: 1px solid red;
+}
+a {
+    color: #fff;
+    font-weight: 700;
+    font-size: medium;
+    font-family: 'inter';
+    border-radius: 30px;
+    border: 1px solid red;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+a:hover {
+    background-color: orange;
+    color: red;
+    border: 1px solid white;
+}
+a:visited {
+    background-color: aqua;
+}
